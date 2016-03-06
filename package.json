@@ -1,9 +1,6 @@
 {
   "name": "pm2plugin",
   "version": "1.0.0",
-  "nrlicense": "LICENSE_KEY",
-  "nrguid": "com.newrelic.pm2plugin",
-  "nrurl": "https://platform-api.newrelic.com/platform/v1/metrics",
   "description": "New Relic plugin to pull in data from PM2",
   "main": "app.js",
   "scripts": {
@@ -12,6 +9,8 @@
   "author": "kahrens",
   "license": "ISC",
   "dependencies": {
+    "commander": "^2.9.0",
+    "lodash": "^4.6.1",
     "pm2": "^0.12.5",
     "request": "^2.53.0"
   }
